@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.saad.youssif.reviewer.controller.OptionsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/typeTv"
+            android:gravity="left"
+            android:text="Select The Type : "
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/typesId"
+            >
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reviewOption"
+                android:gravity="left"
+                android:text="Review"
+                android:layout_marginBottom="15dp"
+                android:textSize="20sp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/testOption"
+                android:gravity="left"
+                android:text="Test"
+                android:layout_marginBottom="15dp"
+                android:textSize="20sp"
+
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/questionNumTv"
+            android:gravity="left"
+            android:text="Select the number of questions : "
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numId"
+            >
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/num25Option"
+                android:gravity="left"
+                android:text="25 Question"
+                android:layout_marginBottom="15dp"
+                android:textSize="20sp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/num50Option"
+                android:gravity="left"
+                android:text="50 Question"
+                android:layout_marginBottom="15dp"
+                android:textSize="20sp"
+
+                />
+        </RadioGroup>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/startBtn"
+            android:text="Start"
+            android:textSize="35sp"
+            android:background="@color/green"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

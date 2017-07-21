@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/reviewOption"
+            android:checked="true"
+            android:checkable="true"
+            android:title="Review" />
+        <item android:id="@+id/testOption"
+            android:checkable="true"
+            android:title="Test" />
+    </group>
+
+    <item android:title="Number Of Questions :">
+        <menu>
+            <item
+                android:id="@+id/question25"
+                android:title="25 Question"
+                android:checkable="true"
+                android:checked="true"
+                />
+            <item
+                android:id="@+id/question50"
+                android:title="50 Question"
+                android:checkable="true"
+
+                />
+        </menu>
+    </item>
+
+</menu>

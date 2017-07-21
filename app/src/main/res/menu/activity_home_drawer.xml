@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Categories">
+            <menu>
+                <item
+                    android:id="@+id/lawEnfo"
+                    android:title="Law Enforcement Administration" />
+                <item
+                    android:id="@+id/crimin"
+                    android:title="Criminalistics" />
+                <item
+                    android:id="@+id/crinJur"
+                    android:title="Criminal Jurisprudence" />
+                <item
+                    android:id="@+id/crimDet"
+                    android:title="Crime Detection" />
+
+                <item
+                    android:id="@+id/socOfCrimes"
+                    android:title="Sociology of Crimes"/>
+                <item
+                    android:id="@+id/CorrAdmin"
+                    android:title="Correctional Administration"/>
+
+            </menu>
+
+        </item>
+    </group>
+
+    <item android:title="Related">
+        <menu>
+            <item
+                android:id="@+id/scoresOption"
+                android:title="My Scores"
+                android:icon="@drawable/ic_save_black_48dp"
+                />
+
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_exit_to_app_black_48dp"
+                android:title="Log out"
+                />
+        </menu>
+    </item>
+
+</menu>
